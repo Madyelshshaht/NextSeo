@@ -8,6 +8,7 @@ export default function AboutPage() {
   return (
     <div className="max-w-prose m-auto space-y-3">
       <h1 className="text-3xl text-center font-bold">About</h1>
+
       <p>
         Welcome to the blog where words sometimes cooperate and form
         sentences... sometimes. I&apos;m your guide through the jungle of
@@ -20,6 +21,7 @@ export default function AboutPage() {
         error. Stick around, and together, we&apos;ll navigate this whirlwind of
         words!
       </p>
+
     </div>
   );
 }
