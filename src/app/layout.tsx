@@ -15,9 +15,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children, }: { children: React.ReactNode; }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="KcbgqeCp8HTEQe2w64BnYQPox-uPar8v444EjCoA_YQ" />
+      </head>
       <body className={inter.className}>
         <Header />
-          <main className="p-5">{children}</main>
+        <main className="p-5">{children}</main>
         <Footer />
       </body>
     </html>
